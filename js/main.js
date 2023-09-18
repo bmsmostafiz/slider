@@ -50,7 +50,7 @@ $(document).ready(function(){
 
       $('.slider4').slick({
         slidesToShow: 3,
-        slidesToScroll: 3
+        slidesToScroll: 1
       });
 
 
