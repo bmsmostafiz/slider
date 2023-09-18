@@ -1,0 +1,44 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: cornflowerblue;
+}
+
+body{
+    width: 50vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.slider-item{
+    width: 500px;
+    height: 150px;
+    color: aqua;
+    background-color: blueviolet;
+    margin: 0 5px;
+    padding: 10px;
+}
+
+.button{
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.addBtn, .removeBtn{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
