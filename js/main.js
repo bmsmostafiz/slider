@@ -13,6 +13,8 @@ $(document).ready(function () {
   $('.slider2').slick({
     centerMode: true,
     centerPadding: '20px',
+    autoplay: true,
+    autoplaySpeed: 2000,
     slidesToShow: 2,
     responsive: [{
         breakpoint: 768,
@@ -40,6 +42,8 @@ $(document).ready(function () {
   $('.slider3').slick({
     dots: true,
     infinite: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
     speed: 500,
     fade: true,
     cssEase: 'linear'
@@ -49,7 +53,9 @@ $(document).ready(function () {
 
   $('.slider4').slick({
     slidesToShow: 3,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
   });
 
 
